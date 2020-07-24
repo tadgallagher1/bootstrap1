@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* Breakpoints */
+
+
+	
+	#container {width:1024px; margin:0px auto; }
+	#left-column{ width:700px;   height:40px; float:left; background:black; color:white;}
+	#right-column{width:315px;   height:40px; float:left; background:gray; color:white;}
+
+
+
+/*...............Media Queries.............. */	
+	
+	@media screen and (max-width:1023px){
+	#container {width:100%;}	
+	#left-column{ width:70%;  height:40px; }
+	#right-column{width:30%;  height:40px; }
+	img {width:100%;}
+		
+	}
+	
+	@media screen and (max-width:640px){
+	#left-column{ width:100%; }
+	#right-column{width:100%; }
+		
+		
+	}
+	@media screen and (max-width:320px){
+	#container{width:320px;}
+		
+	}
+
+/*...............Media Queries.............. */	

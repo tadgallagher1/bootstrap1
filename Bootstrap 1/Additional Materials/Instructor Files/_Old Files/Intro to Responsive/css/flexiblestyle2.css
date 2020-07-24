@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.container {
+	
+	width:100%;
+	margin:0 auto;
+}
+header {
+	width:100%;
+	margin:5% auto 5% auto;
+
+}
+.pics{
+	width:33.33%;
+	float:left;
+	
+	
+}
+.text {
+	
+	width:100%;
+	padding-top:5%;
+	clear:both;
+
+}
+

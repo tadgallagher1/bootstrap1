@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* Breakpoints */
+
+
+	
+	.container {
+        width:1024px; 
+        margin:0px auto; 
+        max-width:959px;
+}
+	.left-column{ 
+        width:512px;  
+        height:50px; 
+        float:left; 
+        background:black;
+        font-size:20px;
+        color:white;
+       
+}
+	.right-column{
+        width:512px;   
+        height:50px; 
+        float:left; 
+        background:gray; 
+        font-size:20px;
+        color:white;
+      
+}
+
+
+
+/*...............Media Queries.............. */	
+	
+	@media screen and (max-width:1039px){
+	.container {width:100%;}	
+	.left-column{ 
+        width:50%;  
+        height:50px; 
+        }
+   
+	.right-column{
+        width:50%;  
+        height:50px; 
+        }
+    .right-column p{font-size:20px;} 
+    .left-column p{font-size:20px;} 
+  
+		
+	}
+	
+	@media screen and (max-width:960px){
+	.left-column{ 
+        width:100%;
+        height:90px; 
+        }
+	.right-column{
+        width:100%; 
+        height:90px;
+        }
+    .right-column p{font-size:30px;} 
+    .left-column p{font-size:30px;}  
+		
+		
+	}
+
+	@media screen and (max-width:680px){
+	
+    .left-column{ height:150px; }
+	.right-column{height:150px; }
+    .right-column p{font-size:40px;;}    
+    .left-column p{font-size:40px;}  
+        
+		
+	}
+
+/*...............Media Queries.............. */	
